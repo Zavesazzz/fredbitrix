@@ -129,6 +129,16 @@
 							);?>
 						</div>
 						<div id="bx-composite-banner" style="padding-top: 20px"></div>
+<?$APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                Array(
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "",
+                    "PATH" => "/include/nashius.php"
+                )
+            );?>
 					</div>
 					<div class="col-sm-6 col-lg-3 order-lg-1 order-4">
 						<div class="mb-3">

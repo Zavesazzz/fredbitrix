@@ -113,6 +113,18 @@ $curPage = $APPLICATION->GetCurPage(true);
 								</div>
 							</div>
 						</div>
+						<div class="p-lg-3 p-1">
+									<?$APPLICATION->IncludeComponent(
+													"bitrix:main.include",
+													"",
+													Array(
+														"AREA_FILE_SHOW" => "file",
+														"AREA_FILE_SUFFIX" => "inc",
+														"EDIT_TEMPLATE" => "",
+														"PATH" => "/include/test.php"
+													)
+												);?>
+						</div>
 					</div>
 				</div>
 			</div>
